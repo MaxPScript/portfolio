@@ -6,6 +6,7 @@
 html,
 body {
 	height: 100%;
+	background-color: blanchedalmond;
 }
 body {
 	font-family:
@@ -21,11 +22,19 @@ body {
 		"Helvetica Neue",
 		sans-serif;
 }
+h1,
+h2 {
+	text-align: center;
+}
 img {
 	max-width: 100%;
 }
 .app {
 	display: grid;
+}
+.main {
+	display: grid;
+	gap: 2em;
 }
 .border_dev {
 	border: 5px dashed hsl(190 50 50 / 0.5);
