@@ -34,7 +34,7 @@ img {
 }
 .main {
 	display: grid;
-	gap: 2em;
+	gap: 5em;
 }
 .border_dev {
 	border: 5px dashed hsl(190 50 50 / 0.5);
