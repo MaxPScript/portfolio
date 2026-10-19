@@ -36,6 +36,14 @@ img {
 .main {
 	display: grid;
 	gap: 5em;
+	.donates {
+		display: grid;
+		place-items: center;
+		gap: 1em;
+		background: linear-gradient(180deg, #1a1b2f 0%, #0b0c16 100%);
+		color: aliceblue;
+		padding: 1em;
+	}
 }
 .footer {
 	background-color: #d3253b;
